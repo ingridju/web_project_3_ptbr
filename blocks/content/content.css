@@ -72,7 +72,7 @@
     "title subtitle"
     "title artista"
     "picture text"
-    "link ."
+    "link .";
 }
 
 .places__artistas-gales-margin{
@@ -429,7 +429,7 @@
       
     .buy__tickets_invitation{
         max-width: 288px;
-        font-size: 32px;    
+        font-size: 32px;
         line-height: 35px;
     }
       

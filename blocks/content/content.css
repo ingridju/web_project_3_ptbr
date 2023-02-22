@@ -159,7 +159,7 @@
     display: grid;
     margin: 92px auto 0 auto;
     max-width: 1184px;
-    height: 100vh;    
+    height: 100vh;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -169,7 +169,6 @@
 
 .buy__tickets::before{
     content: '';
-    position: absolute; 
     background-image: url('../../images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;

@@ -71,13 +71,13 @@
     .header__title{
         max-width: 288px;
         line-height: 44px;
-        margin: 50px 0 0 0;  
+        margin: 50px 0 0 0;
         font-size: 40px;
     }
     
     .header__subtitle{
         max-width: 288px;
-        margin: 60px 0px 0 0px;       
+        margin: 60px 0px 0 0px;   
         font-size: 16px;
         line-height: 20px;
     }

@@ -238,7 +238,7 @@
         "title artista"
         "picture text"
         "link text"
-        " . text"
+        " . text";
     }
   
     .places__artistas-gales-margin{
@@ -352,7 +352,7 @@
         "artista"
         "picture"
         "text"
-        "link"
+        "link";
     }
       
     .places__artistas-gales-margin{
@@ -384,7 +384,7 @@
       
     .places__picture{
         margin: 30px  0 0 0;
-        max-width: 100%
+        max-width: 100%;
     }
       
     .places__subtitle{

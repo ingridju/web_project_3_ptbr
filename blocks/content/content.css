@@ -31,7 +31,7 @@
     text-align: end;
 }
 
-.description__main_text{
+.description__text{
     max-width: 720px;
     font-weight: normal;
     font-size: 16px;
@@ -320,7 +320,7 @@
         display: block;    
     }
       
-    .description__main_text{
+    .description__text{
         max-width: 288px;
         margin: 62px 0 0 0;
     }

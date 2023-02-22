@@ -21,7 +21,7 @@
     position: relative;
 }
 
-.buy__tickets_link{
+.invitation__tickets_link{
     text-decoration: none;
     border: solid #0278fe;
     border-radius: 8px;
@@ -35,7 +35,7 @@
     margin: 0;
 }
 
-.buy__tickets_link::after{
+.invitation__tickets_link::after{
     content: '';
     position: absolute;
     top: 0;
@@ -62,7 +62,7 @@
         border-radius: 4px;
     }
 
-    .buy__tickets_link{ 
+    .invitation__tickets_link{ 
         border: solid #0278fe;
         border-radius: 4px;
         margin: 16px 0 0 0;

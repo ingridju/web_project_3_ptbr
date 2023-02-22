@@ -155,7 +155,7 @@
     margin: 0;
 }
 
-.buy__tickets{
+.invitation{
     display: grid;
     margin: 92px auto 0 auto;
     max-width: 1184px;
@@ -167,7 +167,7 @@
     grid-template-rows: span 2 254px;
 }
 
-.buy__tickets::before{
+.invitation::before{
     content: '';
     background-image: url('../../images/background.jpg');
     background-repeat: no-repeat;
@@ -181,14 +181,14 @@
     opacity: 0.4;
 }
 
-.buy__tickets_text_block{    
+.invitation__block{    
     max-width: 656px;
     min-height: 254px;
     text-align: center;
     position: relative;
 }
 
-.buy__tickets_invitation{
+.inviation__title{
     max-width: 656px;
     height: bold;
     font-size: 72px;
@@ -197,7 +197,7 @@
     margin: 0;
 }
 
-.buy__tickets_adress{
+.invitation__adress{
     max-width: 280px;
     margin: 32px 188px 32px 188px;
 }
@@ -224,6 +224,11 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
+    }
+
+    .cards__item_image{
+        max-width: 100%;
+        max-height: 100%;
     }
       
     .places{
@@ -336,6 +341,11 @@
         grid-template-rows: repeat(1, 1fr);
         grid-gap: 12px;
     }
+
+    .cards__item_image{
+        max-width: 100%;
+        max-height: 100%;
+    }
       
     .places{
         margin: 62px 0 0 0;
@@ -411,15 +421,16 @@
         max-width: 288px;
     }
           
-    .buy__tickets{
+    .invitation{
         display: grid;
         margin: 64px 0 0 0;
         max-width: 320px;
+        max-height: 50vh;
         grid-template-columns: 288px;
         grid-template-rows: span 2 163px;
     }
       
-    .buy__tickets_text_block{    
+    .invitation__block{    
         max-width: 288px;
         margin: 46px 16px 45px 16px;
         display: flex;
@@ -427,13 +438,13 @@
         align-items: center;
     }
       
-    .buy__tickets_invitation{
+    .inviation__title{
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
     }
       
-    .buy__tickets_adress{
+    .invitation__adress{
         max-width: 280px;
         margin: 16px 0 0 0;
     }

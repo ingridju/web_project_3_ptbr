@@ -17,3 +17,9 @@ Este é um projeto que mostra as cidades de origem de alguns funcionários do Pr
 A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido. 
   
 Boa sorte e divirta-se!   
+
+Sobre o projeto:
+
+Foi desenvolvido em HTML5 e CSS3. Para melhor experiência do usuário, está disponível em três tamanhos diferentes 1280px, 768px e 320px) com responsividade para telas com tamanhos populares.
+
+Github: https://github.com/ingridju/web_project_3_ptbr.git

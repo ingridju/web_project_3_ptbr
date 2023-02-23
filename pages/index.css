@@ -1,5 +1,12 @@
+@import url(../normalize.css);
 @import url(../blocks/root/root.css);
-@import url(../blocks/content/content.css);
-@import url(../blocks/content/__link/content__link.css);
-@import url(../blocks/footer/footer.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/_link/places__link.css);
+@import url(../blocks/invitation/invitation.css);
+@import url(../blocks/invitation/__link/invitation__link.css);
+@import url(../blocks/footer/footer.css);
+
+

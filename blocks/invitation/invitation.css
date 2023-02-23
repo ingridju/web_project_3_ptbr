@@ -1,0 +1,79 @@
+.invitation{
+  display: grid;
+  margin: 92px auto 0 auto;
+  max-width: 1184px;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 656px;
+  grid-template-rows: span 2 254px;
+}
+
+.invitation::before{
+  content: '';
+  background-image: url('../../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.4;
+}
+
+.invitation__block{    
+  max-width: 656px;
+  min-height: 254px;
+  text-align: center;
+  position: relative;
+}
+
+.invitation__title{
+  max-width: 656px;
+  height: bold;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.invitation__adress{
+  max-width: 280px;
+  margin: 32px 188px 32px 188px;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
+  .invitation{
+    display: grid;
+    margin: 64px 0 0 0;
+    max-width: 320px;
+    max-height: 50vh;
+    grid-template-columns: 288px;
+    grid-template-rows: span 2 163px;
+  }
+      
+  .invitation__block{    
+    max-width: 288px;
+    margin: 46px 16px 45px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+      
+  .invitation__title{
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+      
+  .invitation__adress{
+    max-width: 280px;
+    margin: 16px 0 0 0;
+  }
+}

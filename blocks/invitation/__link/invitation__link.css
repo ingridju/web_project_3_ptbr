@@ -1,0 +1,40 @@
+.invitation__tickets_link{
+  text-decoration: none;
+  border: solid #0278fe;
+  border-radius: 8px;
+  padding: 13px 20px 13px 20px;
+  background: #0278FE;
+  max-width: 191px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.invitation__tickets_link::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:#0278FE (0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 320px){
+  .places__link{
+    padding: 16px 22px 15px 21px;
+    max-width: 245px;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 22px 16px 0 16px;
+    border-radius: 4px;
+  }
+
+  .invitation__tickets_link{ 
+    border: solid #0278fe;
+    border-radius: 4px;
+    margin: 16px 0 0 0;
+  }
+}

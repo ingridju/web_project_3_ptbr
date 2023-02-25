@@ -3,25 +3,30 @@
   margin: 92px auto 0 auto;
   max-width: 1184px;
   height: 100vh;
-  position: relative;
   justify-content: center;
   align-items: center;
   grid-template-columns: 656px;
   grid-template-rows: span 2 254px;
+  position: relative;
+  
 }
 
 .invitation::before{
   content: '';
-  background-image: url('../../images/background.jpg');
+  background-image: url('/../images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  inset: 0;
+  background-color: #000000;
+  opacity: 0.3;
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.4;
+}
+
+.invitation:hover.invitation{ 
+  content:'';
+  background-color: #2A2C2F;
+  opacity: 0.8;
 }
 
 .invitation__block{    
@@ -43,9 +48,6 @@
 .invitation__adress{
   max-width: 280px;
   margin: 32px 188px 32px 188px;
-}
-
-@media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 320px) {

@@ -22,6 +22,7 @@
   background:#0278FE (0, 0, 0, 0.5);
 }
 
+
 @media screen and (max-width: 320px){
   .places__link{
     padding: 16px 22px 15px 21px;

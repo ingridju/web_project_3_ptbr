@@ -1,0 +1,19 @@
+.places__picture {
+  margin: 48px 0 0 0;
+  max-width: 460px;
+  grid-area: picture;
+}
+
+@media screen and (max-width: 768px) {
+  .places__picture {
+    margin: 46px 0 0 0;
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__picture {
+    margin: 30px 0 0 0;
+    max-width: 100%;
+  }
+}

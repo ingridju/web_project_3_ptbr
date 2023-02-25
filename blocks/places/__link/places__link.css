@@ -1,29 +1,40 @@
-.places__link{
+.places__link {
   text-decoration: none;
   border: solid #0278fe;
   border-radius: 4px;
   padding: 13px 20px 13px 20px;
-  background: #0278FE;
+  background: #0278fe;
   max-width: 315px;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 61px 0 0 0;
   grid-area: link;
   transition: 0.5s;
   position: relative;
 }
 
-.places__link:hover{   
-  color:#FFFFFF;
+.places__link:hover {
+  color: #ffffff;
   opacity: 0.7;
   position: relative;
 }
 
+@media screen and (max-width: 320px) {
+  .places__link {
+    padding: 16px 22px 15px 21px;
+    max-width: 245px;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 22px 16px 0 16px;
+    border-radius: 4px;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  .places__link{
+  .places__link {
     margin: 48px 0 72px 0;
     font-size: 100%;
-   }
+  }
 }

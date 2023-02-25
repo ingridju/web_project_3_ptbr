@@ -1,4 +1,4 @@
-.invitation{
+.invitation {
   display: grid;
   margin: 92px auto 0 auto;
   max-width: 1184px;
@@ -8,12 +8,11 @@
   grid-template-columns: 656px;
   grid-template-rows: span 2 254px;
   position: relative;
-  
 }
 
-.invitation::before{
-  content: '';
-  background-image: url('/../images/background.jpg');
+.invitation::before {
+  content: "";
+  background-image: url("/../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -23,59 +22,19 @@
   position: absolute;
 }
 
-.invitation:hover.invitation{ 
-  content:'';
-  background-color: #2A2C2F;
+.invitation:hover.invitation {
+  content: "";
+  background-color: #2a2c2f;
   opacity: 0.8;
 }
 
-.invitation__block{    
-  max-width: 656px;
-  min-height: 254px;
-  text-align: center;
-  position: relative;
-}
-
-.invitation__title{
-  max-width: 656px;
-  height: bold;
-  font-size: 72px;
-  line-height: 76px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.invitation__adress{
-  max-width: 280px;
-  margin: 32px 188px 32px 188px;
-}
-
 @media screen and (max-width: 320px) {
-  .invitation{
+  .invitation {
     display: grid;
     margin: 64px 0 0 0;
     max-width: 320px;
     max-height: 50vh;
     grid-template-columns: 288px;
     grid-template-rows: span 2 163px;
-  }
-      
-  .invitation__block{    
-    max-width: 288px;
-    margin: 46px 16px 45px 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-      
-  .invitation__title{
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-      
-  .invitation__adress{
-    max-width: 280px;
-    margin: 16px 0 0 0;
   }
 }

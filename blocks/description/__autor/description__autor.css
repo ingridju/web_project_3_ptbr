@@ -1,0 +1,16 @@
+.description__autor {
+  width: 720px;
+  height: 34px;
+  right: 1px;
+  position: absolute;
+  text-align: end;
+}
+
+@media screen and (max-width: 320px) {
+  .description__autor {
+    text-align: end;
+    width: 288px;
+    margin: 10px 0 0 0;
+    display: block;
+  }
+}

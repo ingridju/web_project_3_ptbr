@@ -1,0 +1,9 @@
+.places__subtitle_different_size {
+  max-width: 67px;
+}
+
+@media screen and (max-width: 320px) {
+  .places__subtitle_different_size {
+    max-width: 288px;
+  }
+}

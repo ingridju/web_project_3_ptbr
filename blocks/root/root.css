@@ -1,26 +1,31 @@
-.root{
+.root {
   background-color: #302f2f;
 }
 
-
-.page{
-  margin:0 auto;
+.page {
+  margin: 0 auto;
+  padding: 0;
   max-width: 1280px;
   min-height: 320px;
   background-color: #302f2f;
-  color:#FFFFFF;
-  font-family: 'Inter';
+  color: #ffffff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
-
 
 @media screen and (max-width: 768px) {
   .page {
-      max-width: 768px;
+    max-width: 768px;
   }
-} 
+}
 
-@media screen and (max-width: 320px){
-  .page{
-      max-width: 320px;
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
   }
 }

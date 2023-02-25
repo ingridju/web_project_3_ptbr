@@ -1,0 +1,23 @@
+.places__employee {
+  max-width: 456px;
+  margin: 8px 0 0 40px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  grid-area: employee;
+}
+
+@media screen and (max-width: 768px) {
+  .places__employee {
+    max-width: 365px;
+    font-size: 100%;
+    margin: 8px 0 0 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__employee {
+    max-width: 288px;
+    margin: 8px 16px 0 16px;
+  }
+}

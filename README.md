@@ -22,4 +22,4 @@ Sobre o projeto:
 
 Foi desenvolvido em HTML5 e CSS3. Para melhor experiência do usuário, está disponível em três tamanhos diferentes 1280px, 768px e 320px) com responsividade para telas com tamanhos populares.
 
-Github: https://github.com/ingridju/web_project_3_ptbr.git
+Github Page: https://ingridju.github.io/web_project_3_ptbr/

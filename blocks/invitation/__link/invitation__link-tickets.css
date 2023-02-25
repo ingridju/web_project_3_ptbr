@@ -22,7 +22,7 @@
   background: #0278fe (0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 424px) {
   .invitation__link-tickets {
     border: solid #0278fe;
     border-radius: 4px;

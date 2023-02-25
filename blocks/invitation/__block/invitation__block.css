@@ -5,6 +5,16 @@
   position: relative;
 }
 
+@media screen and (max-width: 424px) {
+  .invitation__block {
+    max-width: 288px;
+    margin: 46px 16px 45px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .invitation__block {
     max-width: 288px;

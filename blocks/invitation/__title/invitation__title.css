@@ -7,6 +7,14 @@
   margin: 0;
 }
 
+@media (max-width: 424px) {
+  .invitation__title {
+    max-width: 393px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .invitation__title {
     max-width: 288px;

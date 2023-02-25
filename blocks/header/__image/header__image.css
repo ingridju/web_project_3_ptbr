@@ -1,5 +1,5 @@
 .header__image {
-  max-width: 984px;
+  width: 100%;
   height: 615px;
   margin-top: 64px;
   filter: grayscale(100);
@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 768px) {
   .header__image {
-    max-width: 768px;
+    width: 100%;
     height: 480px;
     margin-top: 69px;
   }
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 320px) {
   .header__image {
-    max-width: 320px;
+    width: 100%;
     height: 200px;
     margin-top: 40px;
   }

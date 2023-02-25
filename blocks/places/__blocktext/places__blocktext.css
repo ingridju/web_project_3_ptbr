@@ -1,7 +1,7 @@
 .places__blocktext {
   display: grid;
   max-width: 484px;
-  margin: 48px 0 0 40px;
+  margin: 48px 0 0 0;
   row-gap: 25px;
   grid-area: text;
 }
@@ -9,7 +9,7 @@
 @media screen and (max-width: 768px) {
   .places__blocktext {
     max-width: 352px;
-    margin: 46px 0 0 28px;
+    margin: 46px 0 0 0;
     row-gap: 14px;
     grid-area: text;
   }
@@ -19,6 +19,6 @@
   .places__blocktext {
     display: grid;
     max-width: 320px;
-    margin: 30px 16px 0 16px;
+    margin: 30px 16px 0 0;
   }
 }

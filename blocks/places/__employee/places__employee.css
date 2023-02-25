@@ -1,6 +1,6 @@
 .places__employee {
   max-width: 456px;
-  margin: 8px 0 0 40px;
+  margin: 8px 0 0 0;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
@@ -11,13 +11,13 @@
   .places__employee {
     max-width: 365px;
     font-size: 100%;
-    margin: 8px 0 0 28px;
+    margin: 8px 0 0 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__employee {
     max-width: 288px;
-    margin: 8px 16px 0 16px;
+    margin: 8px 16px 0 0;
   }
 }

@@ -26,9 +26,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 580px) {
   .cards__item {
-    max-width: 288px;
+    max-width: 532px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 12px;
@@ -37,5 +37,23 @@
   .cards__item-image {
     max-width: 100%;
     max-height: 100%;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .cards__item {
+    max-width: 377px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cards__item {
+    max-width: 327px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cards__item {
+    max-width: 288px;
   }
 }

@@ -3,6 +3,13 @@
   margin: 32px 188px 32px 188px;
 }
 
+@media (max-width: 424px) {
+  .invitation__adress {
+    max-width: 385px;
+    margin: 16px 0 0 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .invitation__adress {
     max-width: 280px;

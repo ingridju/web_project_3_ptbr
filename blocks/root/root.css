@@ -24,6 +24,23 @@
   }
 }
 
+@media (max-width: 580px) {
+  .page {
+    max-width: 580px;
+  }
+}
+
+@media (max-width: 424px) {
+  .page {
+    max-width: 424px;
+  }
+}
+@media (max-width: 375px) {
+  .page {
+    max-width: 375px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .page {
     max-width: 320px;

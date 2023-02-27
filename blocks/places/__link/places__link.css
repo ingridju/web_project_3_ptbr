@@ -21,6 +21,13 @@
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .places__link {
+    margin: 48px 0 72px 0;
+    font-size: 100%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places__link {
     padding: 16px 22px 15px 21px;
@@ -29,12 +36,5 @@
     line-height: 17px;
     margin: 22px 16px 0 16px;
     border-radius: 4px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .places__link {
-    margin: 48px 0 72px 0;
-    font-size: 100%;
   }
 }

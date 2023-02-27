@@ -8,7 +8,6 @@
     "title employee"
     "picture text"
     "link .";
-
   margin: 92px 0 0 0;
 }
 
@@ -36,9 +35,6 @@
       "picture"
       "text"
       "link";
-  }
-
-  .places__artistas {
     margin: 62px 0 0 0;
   }
 }
